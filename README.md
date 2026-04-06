@@ -95,7 +95,7 @@ Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and enco
 - Individual sensor codes are available  
 - Combined full system code is available
 - All paths code are available 
-- All codes are inside the `codes` folder  
+- All codes are inside the `Robot codes` folder  
 - Path execution:
   - Straight line (PID + Non-PID with jerk control)  
   - Square path (PID + Non-PID)  
@@ -105,8 +105,8 @@ Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and enco
 
 ## 🖨️ 3D Print & PCB Design
 
-- 3D printed chassis files are available in 3D print folder
-- PCB design is available in PCB design folder
+- 3D printed chassis files are available in "3D print" folder
+- PCB design is available in "PCB design" folder
   
 ---
 
