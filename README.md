@@ -1,16 +1,16 @@
 # Differential-Drive-Robot
-Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and encoder motors for precise localization, obstacle detection, and motion control. Implements sensor fusion and PID/non-PID control for accurate path tracking, with ongoing work on mathematical modeling of the robot.
+Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and encoder motors for precise localization, obstacle detection, and motion control. Implements sensor fusion and PID/non-PID control for accurate path tracking, with ongoing work on mathematical modeling of the robot & development of GUI for GUI-based visualization and can get data in .csv format through GUI.
 
 ---
 
 ## 🧰 Hardware Components
 - ESP32  
-- IMU Sensor (MPU6050 / BNO055)  
-- ToF Sensor (VL53L0X / similar)  
-- N20 DC Motors with Encoders  
-- Motor Driver (L298N / TB6612FNG)  
-- Battery Pack  
-- Chassis + Wheels
+- IMU Sensor (MPU6500)  
+- ToF Sensor (VL53L0X)  
+- Two N20 DC Encoder Motors 
+- Motor Driver (TB6612FNG)  
+- Battery Pack (12V) 
+- 3D Printed Chassis + Wheels
 
 ---
 
@@ -101,7 +101,13 @@ Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and enco
   - Square path (PID + Non-PID)  
   - Circular path (PID + Non-PID)
  
-  ---
+---
+
+## 🖨️ 3D Print
+
+- 3D printed chassis files are available in 3D print folder
+
+---
 
 ## 🎯 Applications
 - Autonomous mobile robots  
