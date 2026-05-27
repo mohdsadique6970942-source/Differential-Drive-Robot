@@ -127,10 +127,5 @@ Differential drive mobile robot using ESP32 Dev Kit with IMU 6500, ToF, and enco
 
 ---
 
-## 🚧 Project Status
-🔄 Ongoing – Mathematical modelling & advanced improvements in localization and control are under development.
-
----
-
 ## 📄 License
 Open-source for educational and research purposes.
